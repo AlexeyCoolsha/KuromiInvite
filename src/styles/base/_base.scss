@@ -1,10 +1,5 @@
 @use '../abstracts' as abs;
 
 body {
-  background-color: abs.$body-background-color;
-  background-image: url('../../assets/images/body-bakground.png');
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  background: abs.$body-background-color;
 }

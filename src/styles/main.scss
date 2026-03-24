@@ -15,11 +15,22 @@
 @use 'layout/section';
 
 // 4. Components
-@use 'components/invite';
-@use 'components/hero';
-@use 'components/calendar-mini';
-@use 'components/cake';
-@use 'components/footer';
+@use 'components/block';
+@use 'components/split';
+@use 'components/collage';
+@use 'components/calendar';
+@use 'components/countdown';
+@use 'components/timeline';
+@use 'components/location';
+@use 'components/wishes';
+@use 'components/dress-code';
+@use 'components/button';
+@use 'components/rsvp-form';
+@use 'components/final-section';
+@use 'components/audio-button';
+@use 'components/intro';
+@use 'components/decoration';
+@use 'components/form-section';
 
 // 5. Pages
 @use 'pages/home';

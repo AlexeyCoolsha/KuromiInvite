@@ -4,8 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 560px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 18px;
+    padding: 0 15px;
+    background-color: abs.$container-background-color;
     overflow: hidden;
 }

@@ -3,10 +3,6 @@
 .section {
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    margin-bottom: 36px;
-}
-
-.section:last-child {
-    margin-bottom: 0;
+    gap: 30px;   
+    margin-bottom: 72px;
 }
