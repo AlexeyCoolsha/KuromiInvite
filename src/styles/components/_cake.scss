@@ -1,0 +1,10 @@
+.cake {
+  display: flex;
+  justify-content: center;
+}
+
+.cake__image {
+  width: min(220px, 60vw);
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(148, 78, 107, 0.25));
+}

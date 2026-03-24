@@ -1,0 +1,49 @@
+/// Regular font family
+$text-font-stack: 'Jost', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Secondary font family
+$secondary-font-stack: 'Jost', serif !default;
+
+/// Script font family
+$script-font-stack: 'Martina-scriptC', cursive !default;
+
+///
+/// Colors
+///
+
+$text-color: #b15b7e !default;
+$color-accent: #b85078 !default;
+$color-accent-lighter: #d88fb1 !default;
+$container-background-color: #f7dbe9 !default;
+$body-background-color: #f9e4ef !default;
+$color-light-gray: #f2d7e4 !default;
+
+$color-white: #ffffff;
+$btn-size: 64px;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 375px,
+  // mobile screen
+  'medium': 800px,
+  // tablet screen
+  'large': 1280px,
+  // laptop screen
+  'extra-large': 1920px, // desktop screen
+) !default;
+
+$breakpoints-container: (
+  'small': 375px,
+  // mobile screen
+  'medium': 736px,
+  // tablet screen
+  'large': 1440px, // laptop screen
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'https://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

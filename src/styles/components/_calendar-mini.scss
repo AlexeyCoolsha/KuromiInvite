@@ -1,0 +1,59 @@
+@use '../abstracts' as abs;
+
+.calendar {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.calendar__title {
+  font-family: abs.$script-font-stack;
+  font-size: 24px;
+  color: abs.$color-accent;
+  margin: 0;
+}
+
+.calendar__grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  font-size: 13px;
+  color: abs.$text-color;
+  padding: 0 12px;
+}
+
+.calendar__day {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  font-weight: 500;
+}
+
+.calendar__day--marked {
+  color: abs.$color-accent;
+  font-weight: 700;
+}
+
+.calendar__ring {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  inset: -16px auto auto -14px;
+  z-index: -1;
+}
+
+@media (max-width: 480px) {
+  .calendar__grid {
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  .calendar__ring {
+    width: 48px;
+    height: 48px;
+  }
+}
