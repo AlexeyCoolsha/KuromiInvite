@@ -13,7 +13,7 @@
 }
 
 .card {
-  background: #ffffff;
+  background: abs.$color-white;
   min-height: 320px;
 }
 
@@ -26,7 +26,15 @@
     min-height: 320px;
     border-radius: 14px;
     width: 100%;
-    background: var(--media-image, radial-gradient(circle at 20% 20%, #ffffff 0%, #efe9e5 45%, #d8d1cc 100%));
+    background: var(
+      --media-image,
+      radial-gradient(
+        circle at 20% 20%,
+        abs.$color-white 0%,
+        abs.$color-cream 45%,
+        abs.$color-cream-dark 100%
+      )
+    );
     background-size: cover;
     background-position: center;
     height: 100%;

@@ -13,9 +13,11 @@
 // 3. Layout-related sections
 @use 'layout/container';
 @use 'layout/section';
+@use 'layout/footer';
 
 // 4. Components
 @use 'components/block';
+@use 'components/link';
 @use 'components/split';
 @use 'components/collage';
 @use 'components/calendar';
@@ -31,6 +33,10 @@
 @use 'components/intro';
 @use 'components/decoration';
 @use 'components/form-section';
+@use 'components/wrapper';
+@use 'components/smooth';
+@use 'components/introduction';
+@use 'components/composition';
 
 // 5. Pages
 @use 'pages/home';

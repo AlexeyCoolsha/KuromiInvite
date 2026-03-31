@@ -8,13 +8,23 @@
     font-size: 32px;
   }
   &__title {
-    font-size: 42px;
+    font-size: 52px;
     font-weight: 200;
     font-family: abs.$script-font-stack;
+    color: abs.$color-accent;;
+  }
+  &__subtitle {
+    display: inline-block;
+    max-width: 300px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 72px;
+    color: rgba(abs.$color-accent, 0.85);
   }
   &__text {
     display: inline-block;
-    max-width: 320px;
+    max-width: 200px;
+    font-size: 20px;
   }
   &--align-left {
     align-items: flex-start;
@@ -27,6 +37,9 @@
     & .block__title {
       text-align: left;
     }
+    & .block__subtitle {
+      text-align: left;
+    }
   }
   &--align-center {
     align-items: center;
@@ -37,6 +50,9 @@
       text-align: center;
     }
     & .block__title {
+      text-align: center;
+    }
+    & .block__subtitle {
       text-align: center;
     }
   }
@@ -58,7 +74,7 @@
     & .block__title,
     & .block__text {
       margin: 0;
-      color: #ffffff;
+      color: abs.$color-white;
     }
   }
 }

@@ -16,9 +16,9 @@
   &__card {
     position: relative;
     border-radius: 18px;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 8px 10px rgba(abs.$color-black, 0.22);
     background: abs.$color-accent;
-    color: #ffffff;
+    color: abs.$color-white;
     min-height: 320px;
     overflow: hidden;
     display: flex;

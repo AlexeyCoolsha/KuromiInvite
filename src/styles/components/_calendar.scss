@@ -4,7 +4,7 @@
   text-align: center;
   max-width: 370px;
   margin: 0 auto;
-  color: #3b3b3b;
+  color: abs.$color-gray;
   font-weight: 400;
 }
 
@@ -61,11 +61,12 @@
   width: min(100%, 460px);
   margin: 0 auto;
   color: abs.$text-color;
-  margin-top: clamp(16px, 3vw, 32px);
+  margin-top: 16px;
 }
 
 .calendar-extended__month {
   font-family: abs.$script-font-stack;
+  color: abs.$color-accent;
   font-size: clamp(28px, 6vw, 48px);
   line-height: 1;
 }
@@ -73,32 +74,34 @@
 .calendar-extended__grid {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  column-gap: clamp(16px, 3vw, 28px);
-  row-gap: clamp(10px, 2vw, 18px);
+  column-gap: clamp(18px, 3.4vw, 30px);
+  row-gap: clamp(14px, 2.8vw, 22px);
   width: 100%;
   justify-items: center;
 }
 
 .calendar-extended__grid--weekdays {
   font-family: abs.$script-font-stack;
-  font-size: clamp(22px, 4.2vw, 40px);
+  font-size: clamp(22px, 4.2vw, 28px);
   line-height: 1;
   text-transform: lowercase;
+  color: rgba($color: #8c5c66, $alpha: 0.9);
 }
 
 .calendar-extended__grid--dates {
   font-family: abs.$text-font-stack;
   font-weight: 300;
-  font-size: clamp(20px, 3.4vw, 32px);
+  font-size: clamp(20px, 3.4vw, 24px);
   line-height: 1;
 }
 
 .calendar-extended__day {
   position: relative;
-  min-height: clamp(26px, 4vw, 34px);
+  min-height: clamp(32px, 5vw, 44px);
   display: grid;
   place-items: center;
   width: 100%;
+  z-index: 1;
 }
 
 .calendar-extended__day--marked {
@@ -106,30 +109,41 @@
 }
 
 .calendar-extended__day--ring {
-  --marker-shift-y: -6%;
+  --marker-shift-y: 0%;
   --marker-shift-x: 0%;
 }
 
 .calendar-extended__marker {
   position: absolute;
-  width: clamp(34px, 6.4vw, 56px);
+  width: clamp(56px, 9.5vw, 84px);
   aspect-ratio: 43 / 53;
   height: auto;
   top: 50%;
   left: 50%;
-  transform: translate(
-    calc(-50% + var(--marker-shift-x, 0%)),
-    calc(-50% + var(--marker-shift-y, 0%))
-  );
+  transform: translate(-50%, -50%);
   pointer-events: none;
   display: grid;
   place-items: center;
+  z-index: 0;
 }
 
 .calendar-extended__marker-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  transform: scaleX(-1);
+}
+
+.calendar-extended__day--empty {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 680px) {
+  .introduction {
+    & .wrapper {
+      padding: 0 32px;
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {

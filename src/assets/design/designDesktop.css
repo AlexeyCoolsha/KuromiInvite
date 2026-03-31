@@ -1,0 +1,1286 @@
+/* Дизайн Desktop */
+
+position: absolute;
+width: 1440px;
+height: 1885px;
+left: 1435px;
+top: 432px;
+
+background: url(Desktop.png);
+
+
+/* Frame 20 */
+
+position: absolute;
+width: 481.76px;
+height: 1885.13px;
+left: 479px;
+top: 0px;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 480.82px;
+height: 1885.13px;
+left: 0px;
+top: 0px;
+
+
+
+/* фон */
+
+position: absolute;
+width: 477.09px;
+height: 1885.13px;
+left: 3.73px;
+top: 0px;
+
+
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 473.27px;
+height: 555.16px;
+left: 6.57px;
+top: 1329.4px;
+
+background: url(ChatGPT Image 19 мар. 2026 г., 11_30_28.png);
+transform: rotate(0.07deg);
+
+
+/* Rectangle 34 */
+
+position: absolute;
+width: 469.73px;
+height: 776.51px;
+left: 7.06px;
+top: 773.74px;
+
+background: url(ChatGPT Image 19 мар. 2026 г., 11_30_28.png);
+transform: rotate(0.07deg);
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 477.09px;
+height: 340.42px;
+left: 3.73px;
+top: 1499.6px;
+
+background: linear-gradient(180.12deg, rgba(252, 235, 239, 0.85) 1.17%, #FDDEEB 93.91%);
+filter: blur(12px);
+
+
+/* Rectangle 36 */
+
+position: absolute;
+width: 469.63px;
+height: 776.51px;
+left: 7.93px;
+top: 0px;
+
+background: url(Frame 19.png);
+
+
+/* Rectangle 35 */
+
+position: absolute;
+width: 470px;
+height: 580px;
+left: 8px;
+top: 693px;
+
+background: linear-gradient(180.12deg, rgba(252, 235, 239, 0.85) 1.17%, #FDDEEB 93.91%);
+filter: blur(12px);
+
+
+/* фото главное */
+
+position: absolute;
+width: 416px;
+height: 501px;
+left: 39px;
+top: 126px;
+
+background: url(IMG_6865.jpg);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* фото главное */
+
+position: absolute;
+width: 416px;
+height: 501px;
+left: 40px;
+top: 126px;
+
+background: url(IMG_6865.jpg);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* плашка "о компании" */
+
+position: absolute;
+width: 480px;
+height: 45px;
+left: 0px;
+top: 1840px;
+
+background: #FFFFFF;
+
+
+/* С любовью создано командой «Твоё приглашение» */
+
+position: absolute;
+width: 302px;
+height: 15px;
+left: 62px;
+top: 1855px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 120%;
+/* or 12px */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(110, 74, 80, 0.85);
+
+
+
+/* символ ТГ */
+
+position: absolute;
+width: 24px;
+height: 20px;
+left: 370px;
+top: 1852px;
+
+background: #B85078;
+
+
+/* Group */
+
+position: absolute;
+width: 219.88px;
+height: 75px;
+left: 137px;
+top: 51px;
+
+
+
+/* С */
+
+position: absolute;
+width: 24.07px;
+height: 62.59px;
+left: 137px;
+top: 56.72px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(-4.49deg);
+
+
+/* о */
+
+position: absolute;
+width: 12.04px;
+height: 62.59px;
+left: 167.84px;
+top: 54.28px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(-3.4deg);
+
+
+/* ф */
+
+position: absolute;
+width: 16.85px;
+height: 62.59px;
+left: 186.57px;
+top: 53.19px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(-2.47deg);
+
+
+/* и */
+
+position: absolute;
+width: 13.24px;
+height: 62.59px;
+left: 210.14px;
+top: 52.61px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(-1.52deg);
+
+
+/* и */
+
+position: absolute;
+width: 13.24px;
+height: 62.59px;
+left: 230.06px;
+top: 52.34px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(-0.65deg);
+
+
+/* 6 */
+
+position: absolute;
+width: 26.48px;
+height: 62.59px;
+left: 254.32px;
+top: 62.86px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+
+color: #B85078;
+
+transform: rotate(1.22deg);
+
+
+/* л */
+
+position: absolute;
+width: 12.04px;
+height: 62.59px;
+left: 303.09px;
+top: 51px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(3.07deg);
+
+
+/* е */
+
+position: absolute;
+width: 8.42px;
+height: 62.59px;
+left: 320.87px;
+top: 52.05px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(3.81deg);
+
+
+/* т */
+
+position: absolute;
+width: 16.85px;
+height: 62.59px;
+left: 335.01px;
+top: 53.07px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 52px;
+
+color: #B85078;
+
+transform: rotate(4.65deg);
+
+
+/* календарь */
+
+position: absolute;
+width: 357.82px;
+height: 381.42px;
+left: 62.12px;
+top: 1172.84px;
+
+
+
+/* кольцо вокруг 28 */
+
+position: absolute;
+width: 79.1px;
+height: 118.65px;
+left: 89.87px;
+top: 1435.61px;
+
+background: url(ChatGPT Image 19 мар. 2026 г., 15_42_52.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Апрель */
+
+position: absolute;
+width: 110.58px;
+height: 55.91px;
+left: 185.12px;
+top: 1172.84px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 100%;
+/* or 45px */
+
+color: #B85078;
+
+
+
+/* дни недели */
+
+position: absolute;
+width: 346.63px;
+height: 29.82px;
+left: 67.09px;
+top: 1243.66px;
+
+
+
+/* вс */
+
+position: absolute;
+width: 12.42px;
+height: 29.82px;
+left: 401.3px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* пн */
+
+position: absolute;
+width: 14.91px;
+height: 29.82px;
+left: 67.09px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* вт */
+
+position: absolute;
+width: 17.39px;
+height: 29.82px;
+left: 119.27px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* ср */
+
+position: absolute;
+width: 12.42px;
+height: 29.82px;
+left: 176.42px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* чт */
+
+position: absolute;
+width: 18.64px;
+height: 29.82px;
+left: 226.12px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* пт */
+
+position: absolute;
+width: 18.64px;
+height: 29.82px;
+left: 284.51px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* сб */
+
+position: absolute;
+width: 13.67px;
+height: 29.82px;
+left: 340.42px;
+top: 1243.66px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+color: rgba(140, 92, 102, 0.9);
+
+
+
+/* цифры */
+
+position: absolute;
+width: 357.82px;
+height: 209.97px;
+left: 62.12px;
+top: 1294.6px;
+
+
+
+/* 1 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 176.42px;
+top: 1294.6px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 2 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 228.61px;
+top: 1294.6px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 3 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 287px;
+top: 1294.6px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 4 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 340.42px;
+top: 1294.6px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 5 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 401.3px;
+top: 1294.6px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 6 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 68.33px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 7 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 121.76px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 8 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 176.42px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 9 */
+
+position: absolute;
+width: 12.42px;
+height: 21.12px;
+left: 228.61px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 10 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 282.03px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 11 */
+
+position: absolute;
+width: 19.88px;
+height: 21.12px;
+left: 336.7px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 12 */
+
+position: absolute;
+width: 19.88px;
+height: 21.12px;
+left: 397.57px;
+top: 1341.81px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 13 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 63.36px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 14 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 118.03px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 15 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 171.45px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 16 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 224.88px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 17 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 282.03px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 18 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 336.7px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 19 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 396.33px;
+top: 1389.02px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 20 */
+
+position: absolute;
+width: 23.61px;
+height: 21.12px;
+left: 62.12px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 21 */
+
+position: absolute;
+width: 21.12px;
+height: 21.12px;
+left: 118.03px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 22 */
+
+position: absolute;
+width: 22.36px;
+height: 21.12px;
+left: 171.45px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 23 */
+
+position: absolute;
+width: 22.36px;
+height: 21.12px;
+left: 223.64px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 29 */
+
+position: absolute;
+width: 23.61px;
+height: 21.12px;
+left: 170.21px;
+top: 1483.45px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 30 */
+
+position: absolute;
+width: 23.61px;
+height: 21.12px;
+left: 223.64px;
+top: 1483.45px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 24 */
+
+position: absolute;
+width: 22.36px;
+height: 21.12px;
+left: 282.03px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 25 */
+
+position: absolute;
+width: 22.36px;
+height: 21.12px;
+left: 335.45px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 26 */
+
+position: absolute;
+width: 23.61px;
+height: 21.12px;
+left: 396.33px;
+top: 1436.24px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 27 */
+
+position: absolute;
+width: 23.61px;
+height: 21.12px;
+left: 62.12px;
+top: 1483.45px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #6E4A50;
+
+
+
+/* 28 */
+
+position: absolute;
+width: 23.61px;
+height: 21.12px;
+left: 116.79px;
+top: 1483.45px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 100%;
+/* or 17px */
+
+color: #B85078;
+
+
+
+/* Будем рады видеть вас на дне рождении Софии, этот день будет наполнен радостью и смехом */
+
+position: absolute;
+width: 377px;
+height: 181px;
+left: 53px;
+top: 795px;
+
+font-family: 'Martina scriptC';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 106.46%;
+/* or 55px */
+text-align: center;
+
+color: #B85078;
+
+
+
+/* кнопка звука */
+
+position: absolute;
+width: 57.15px;
+height: 57.15px;
+left: 398.82px;
+top: 16.15px;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 57.15px;
+height: 57.15px;
+left: 398.82px;
+top: 16.15px;
+
+background: #FAD6E4;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Праздник пройдет в нашем детском саду 28 апреля 15:30 — 17:00 */
+
+position: absolute;
+width: 266px;
+height: 132px;
+left: 108px;
+top: 1005px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(90, 62, 66, 0.9);
+
+
+
+/* Rectangle 40 */
+
+position: absolute;
+width: 149px;
+height: 1868px;
+left: -130px;
+top: -28px;
+
+background: linear-gradient(88.35deg, rgba(252, 228, 236, 0.35) 1.4%, rgba(252, 228, 236, 0.7) 98.6%);
+filter: blur(3.25px);
+
+
+/* Rectangle 41 */
+
+position: absolute;
+width: 149px;
+height: 1868px;
+left: 467px;
+top: 0px;
+
+background: linear-gradient(88.35deg, rgba(252, 228, 236, 0.35) 1.4%, rgba(252, 228, 236, 0.7) 98.6%);
+filter: blur(3.25px);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 5 */
+
+position: absolute;
+width: 469px;
+height: 496.9px;
+left: 6px;
+top: 1475px;
+
+
+
+/* облако */
+
+position: absolute;
+width: 154.54px;
+height: 103.03px;
+left: 6px;
+top: 1610.23px;
+
+background: url(.png);
+
+
+/* облако */
+
+position: absolute;
+width: 154.54px;
+height: 103.03px;
+left: 320.46px;
+top: 1610.23px;
+
+background: url(.png);
+
+
+/* облако */
+
+position: absolute;
+width: 119.13px;
+height: 79.42px;
+left: 186.3px;
+top: 1561.93px;
+
+background: url(.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 4 */
+
+position: absolute;
+width: 331.63px;
+height: 496.9px;
+left: 55.37px;
+top: 1475px;
+
+
+
+/* ChatGPT Image 21 мар. 2026 г., 22_54_29 1 */
+
+position: absolute;
+width: 331.63px;
+height: 496.9px;
+left: 55.37px;
+top: 1475px;
+
+background: url(ChatGPT Image 21 мар. 2026 г., 22_54_29.png);
+
+
+/* Vector 4 */
+
+position: absolute;
+width: 293.01px;
+height: 98.31px;
+left: 64.06px;
+top: 1735.08px;
+
+border: 9px solid #F5DBE3;
+filter: blur(4.8px);
+
+
+/* Vector */
+
+position: absolute;
+left: 62.29%;
+right: 36.46%;
+top: 1.59%;
+bottom: 96.87%;
+
+background: #B85078;

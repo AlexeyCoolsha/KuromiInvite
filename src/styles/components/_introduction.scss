@@ -1,0 +1,20 @@
+.introduction {
+  position: relative;
+  width: 100%;
+  z-index: auto;
+  padding: 20px 0 40px 0;
+  overflow: visible;
+  background: url(/src/assets/images/introduction-background.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #f8dfe9;
+  background-repeat: no-repeat;
+  & .block {
+    position: relative;
+    z-index: 5;
+  }
+  & .calendar-extended {
+    position: relative;
+    z-index: 5;
+  }
+}

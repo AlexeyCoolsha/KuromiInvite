@@ -9,7 +9,7 @@
 .final {
   height: 90vh;
   max-width: 520px;
-  color: #ffffff;
+  color: abs.$color-white;
 
   &__intro,
   &__quote {
@@ -24,7 +24,7 @@
     align-items: center;
     max-width: 100%;
     padding: 20px 32px;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(abs.$color-white, 0.8);
     // font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
@@ -49,7 +49,7 @@
   &__image {
     flex: 1 0 auto;
     width: 100%;
-    background: var(--final-image, #000) center/cover no-repeat;
+    background: var(--final-image, abs.$color-black) center/cover no-repeat;
     background-size: cover;
   }
 

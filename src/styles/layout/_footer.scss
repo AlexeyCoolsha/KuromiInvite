@@ -1,0 +1,47 @@
+@use '../abstracts' as abs;
+
+.footer {
+  width: 100%;
+  padding: 10px 16px;
+  background: abs.$color-white;
+  border-top: 1px solid rgba(abs.$color-accent, 0.18);
+  border-bottom: 1px solid rgba(abs.$color-accent, 0.12);
+}
+
+.footer__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.footer__text {
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  color: rgba(abs.$color-accent, 0.85);
+  text-align: center;
+  padding: 0 32px;
+}
+
+.footer__link {
+  width: 22px;
+  height: 22px;
+}
+
+.footer__link img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 8px 12px;
+  }
+
+  .footer__link {
+    width: 20px;
+    height: 20px;
+  }
+}

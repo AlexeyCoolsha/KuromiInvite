@@ -9,55 +9,67 @@
   z-index: 9999;
   flex-direction: column;
   text-align: center;
-  color: abs.$color-white;
+  color: abs.$color-accent;
   overflow: hidden;
 
-  background-color: black;
-  
+  background-color: abs.$color-black;
+
   height: 100dvh;
   min-height: 100dvh;
 
+  
   &::before {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url("../../assets/images/intro.webp");
+    background-image: url('../../assets/images/intro-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    background-color: black;
+    background-color: abs.$color-accent;
 
-    filter: blur(4px);
-    // transform: scale(1.1); // чтобы края не обрезались
+    // filter: blur(4px);
+    transform: scale(1.1); // чтобы края не обрезались
     z-index: -1;
   }
 
   &__content {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 10rem 5rem 15rem 5rem;
-    background-color: rgba($color: #000000, $alpha: 0.7);
+    padding: 5rem;
+    gap: 20px;
+    // background-color: rgba(abs.$color-black, 0.7);
   }
 
+  &__image {
+    max-height: 85%;
+    & img {
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+
+
   &__title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-      font-size: clamp(90px, 18vw, 140px);
-      font-weight: 200;
-      line-height: 1;
+    font-size: clamp(90px, 18vw, 140px);
+    font-weight: 200;
+    line-height: 1;
 
-      gap: 40px;
-}
+    gap: 40px;
+  }
   &_title span {
-  display: block;
-}
+    display: block;
+  }
 
   &__date {
     font-size: 3rem;
@@ -67,17 +79,17 @@
   }
 
   &__button {
-    padding: 1rem 6rem;
+    padding: 1rem 2rem;
     font-size: 1rem;
     background: transparent;
-    border: 1px solid abs.$color-white;
+    border: 1px solid abs.$color-accent;
     border-radius: 0;
-    color: abs.$color-white;
+    color: abs.$color-accent;
     cursor: pointer;
     transition: background 0.2s;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(abs.$color-accent, 0.1);
     }
   }
 
@@ -91,10 +103,31 @@ body.no-scroll {
   overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-height: 600px) {
   .intro-overlay {
     &__content {
       padding: 10rem 2rem 5rem 2rem;
     }
   }
 }
+
+@media screen and (max-width: 600px) and (min-height: 500px) {
+  .intro-overlay {
+    &__content {
+      padding: 10rem 2rem 5rem 2rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) and (min-height: 500px) {
+  .intro-overlay {
+    &__content {
+      padding: 10rem 10px 5rem 10px;
+    }
+  }
+}
+
+
+
+

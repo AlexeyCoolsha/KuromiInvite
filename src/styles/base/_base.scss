@@ -1,5 +1,12 @@
 @use '../abstracts' as abs;
 
+html,
 body {
-  background: abs.$body-background-color;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: abs.$body-background;
+  background-color: abs.$body-background-color;
 }

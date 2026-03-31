@@ -1,5 +1,31 @@
-let btn, audio, overlay, enterBtn;
+﻿let btn, audio, overlay, enterBtn;
 let isPlaying = false;
+const DEFAULT_VOLUME = 0.5;
+let audioCtx = null;
+let gainNode = null;
+let mediaSource = null;
+
+function ensureAudioGraph() {
+  if (!audio || audioCtx) return;
+  const Ctx = window.AudioContext || window.webkitAudioContext;
+  if (!Ctx) return;
+  audioCtx = new Ctx();
+  mediaSource = audioCtx.createMediaElementSource(audio);
+  gainNode = audioCtx.createGain();
+  gainNode.gain.value = DEFAULT_VOLUME;
+  mediaSource.connect(gainNode).connect(audioCtx.destination);
+}
+
+function applyVolume() {
+  if (audio) audio.volume = DEFAULT_VOLUME;
+  if (gainNode) gainNode.gain.value = DEFAULT_VOLUME;
+}
+
+function resumeAudioContext() {
+  if (audioCtx && audioCtx.state === 'suspended') {
+    audioCtx.resume().catch(() => {});
+  }
+}
 
 function init() {
   btn = document.getElementById('audioBtn');
@@ -16,23 +42,30 @@ function init() {
 }
 
 function attachListeners() {
-  // В интро музыка не должна идти — принудительно останавливаем и сбрасываем.
-  audio.pause();
-  audio.currentTime = 0;
-  audio.muted = true;
-  audio.autoplay = false;
-  audio.removeAttribute('autoplay');
+  const hasAudio = !!audio;
+
+  // Ensure audio is stopped during intro
+  if (hasAudio) {
+    audio.pause();
+    audio.currentTime = 0;
+    audio.muted = true;
+    applyVolume();
+    audio.autoplay = false;
+    audio.removeAttribute('autoplay');
+  }
   setPlayState();
 
-  // Слушаем события аудио и синхронизируем состояние кнопки
-  audio.addEventListener('play', () => {
-    setPauseState();
-  });
-  audio.addEventListener('pause', () => {
-    setPlayState();
-  });
+  // Sync audio events with button state
+  if (hasAudio) {
+    audio.addEventListener('play', () => {
+      setPauseState();
+    });
+    audio.addEventListener('pause', () => {
+      setPlayState();
+    });
+  }
 
-  // Пользователь нажал кнопку «открыть» на заставке
+  // Intro open button
   if (enterBtn) {
     enterBtn.addEventListener('click', () => {
       if (overlay) overlay.classList.add('hidden');
@@ -40,24 +73,34 @@ function attachListeners() {
       document.getElementById('app').style.display = 'block';
       document.body.classList.remove('intro-open');
       document.body.classList.remove('no-scroll');
-      audio.currentTime = 0;
-      audio.muted = false;
-      audio.play().catch(() => {});
+
+      if (hasAudio) {
+        ensureAudioGraph();
+        resumeAudioContext();
+        audio.currentTime = 0;
+        audio.muted = false;
+        applyVolume();
+        audio.play().catch(() => {});
+      }
     });
   }
 
-  // Клик по аудио‑кнопке
+  // Audio button click
   if (btn) {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
 
-      // Скрываем tooltip при первом клике
+      // Hide tooltip on first click
       const tooltip = btn.querySelector('[data-tooltip]');
       if (tooltip && !tooltip.classList.contains('hidden')) {
         tooltip.classList.add('hidden');
       }
 
+      if (!audio) return;
       if (audio.paused) {
+        ensureAudioGraph();
+        resumeAudioContext();
+        applyVolume();
         audio.play();
       } else {
         audio.pause();
@@ -75,12 +118,14 @@ if (document.readyState === 'loading') {
 
 function setPlayState() {
   isPlaying = false;
+  if (!btn) return;
   btn.classList.remove('audio-button--pause');
   btn.classList.add('audio-button--play');
 }
 
 function setPauseState() {
   isPlaying = true;
+  if (!btn) return;
   btn.classList.remove('audio-button--play');
   btn.classList.add('audio-button--pause');
 }
